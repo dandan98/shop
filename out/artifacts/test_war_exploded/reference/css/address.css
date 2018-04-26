@@ -1,0 +1,252 @@
+@CHARSET "UTF-8";
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+.ftitle {
+	height: 204px;
+	background-color: #fff;
+	box-shadow: 0px 0px 3px 0px rgba(0000.2);
+	border-bottom: 1px solid #e8e8e8;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.title {
+	height: 100%;
+	width: 1090px;
+	margin: 0 auto;
+	position: relative;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.a-bd {
+	width: 100%;
+	height: 270px;
+	z-index: 1;
+	position: relative;
+	margin-top: 50px;
+	border: 1px solid #e8e8e8;
+}
+
+.a-hd {
+	float: center;
+	padding-left: 21px;
+	background-color: #f5f5f5;
+	height: 42px;
+	border-bottom: 1px solid #e8e8e8;
+	line-height: 41px;
+	color: #999;
+	font-size: 14px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.a-bd4-left {
+	float: left;
+	font-size: 14px;
+	width: 617px;
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.region {
+	margin-top: 20px;
+	line-height: 1;
+	position: relative;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+	float: left;
+}
+
+.region1{
+display:inline-block;
+font-size:14px;
+line-height:14px;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+transform: translate(20%, 0%);
+}
+
+.region2{
+height:70px;
+background-color:#fff;
+padding:9px;
+width:530px;
+font-size:14px;
+line-height:14px;
+display:block;
+color:#333;
+border:1px solid #ddd;
+border-radius:2px;
+margin-top:20px;
+}
+
+
+/*.province{
+display:inline-block;
+position:relative;
+font-size:14px;
+line-height:14px;
+margin-right:10px;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+.province2{
+width:170px;
+font-size:14px;
+line-height:14px;
+border:1px solid #ddd;
+border-radius:0;
+background-color:#fff;
+height:28px;
+color:#333;
+outline:0;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+*/
+.lable {
+	position: absolute;
+	transform: translate(12%, 160%);
+	float: left;
+	width: 80px;
+	text-align: right;
+	font-size: 14px;
+	box-sizing: border-box;
+	color: #888888;
+}
+
+.lable2 {
+	position: absolute;
+	float: left;
+	transform: translate(-120%, 90%);
+	width: 80px;
+	text-align: right;
+	width: 67px;
+	font-size: 14px;
+	color: #888888;
+}
+
+.lable3 {
+	position: absolute;
+	float: left;
+	transform: translate(-120%, 80%);
+	width: 80px;
+	text-align: right;
+	width: 67px;
+	font-size: 14px;
+	color: #888888;
+}
+
+.receive-left {
+	width: 287px;
+	font-size: px;
+	float: left;
+	position: relative;
+	margin-top: 24px;
+	margin-left: 105px;
+	box-sizing: border-box;
+}
+
+.receive-right {
+	width: 287px;
+	font-size: 0px;
+	float: left;
+	position: relative;
+	margin-top: 6px;
+	margin-left: 46px;
+	box-sizing: border-box;
+	line-height: 1;
+}
+
+.receive-box {
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.input {
+	height: 34px;
+	line-height: 28px;
+	padding-left: 9px;
+	width: 200px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	border: 1px solid #ddd;
+}
+
+.blank {
+	position: relative;
+	width: 305px;
+	height: 110px;
+	line-height: 16px;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+.operate {
+	margin-top: -190px;
+	margin-left: 700px;
+	width: 360px;
+	padding: 57px 0 43px 60px;
+	border-left: 1px dashed #dedede;
+	float: left;
+	box-sizing: border-box;
+}
+
+.operate2 {
+	width: auto;
+	margin-top: 0px;
+	box-sizing: border-box;
+}
+
+.operate3 {
+	margin-top: 40px;
+	width: auto;
+	margin-left: 0px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.button1 {
+	width: 144px;
+	height: 42px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid #b4a078;
+	background-color: #b4a078;
+	border-radius: 2px;
+	text-align: center;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.button2 {
+	margin-left: 10px;
+	width: 144px;
+	height: 42px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #b4a078;
+	border: 1px solid #b4a078;
+	background-color: #f5f3ef;
+	border-radius: 2px;
+	text-align: center;
+	cursor: pointer;
+	vertical-align: middle;
+	transform: translate(120%, -100%);
+}

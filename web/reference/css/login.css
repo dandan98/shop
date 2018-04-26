@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+.login-page {
+	position: absolute;
+	top: 50%;
+	left: 77%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	border: 1px solid #e8e8e8;
+	width: 318px;
+	padding: 0 40px;
+	background: #fff;
+	display: none;
+	min-height: 390px;
+	height: auto !important;
+}
+
+.bd {
+	width: 318px;
+	background: none;
+	border-radius: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.header {
+	position: relative;
+	padding: 30px 0;
+	font-size: 18px;
+	text-align: center;
+	color: #333;
+}
+
+.midd {
+	width: 318px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.inputbox {
+	border: 1px solid #e8e8e8;
+	line-height: 36px;
+	border-radius: 2px;
+	margin-bottom: 0px;
+	position: relative;
+	background: #fff;
+	font-size: 12px;
+}
+
+.u-logo {
+	float: left;
+	width: 29px;
+	text-align: center;
+	height: 24px;
+	background: no-repeat 50% 50%;
+}
+
+.input {
+	height: 36px;
+	line-height: 36px;
+	padding-left: 8px;
+	width: 269px;
+	font-size: 14px;
+	font-weight: normal;
+	background: #fff;
+	color: #333;
+	border: 0;
+}
+.input:active{
+	border-color: transparent;
+}
+
+.blank {
+	position: relative;
+	width: 305px;
+	height: 10px;
+	line-height: 16px;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+.loginbox {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.loginbtn {
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	background: #b4a078;
+	font-size: 18px;
+	line-height: 48px;
+	border-radius: 2px;
+}
+
+.midd.unlogin {
+	padding: 2px 0 9px 0;
+	font-size: 0px;
+	height: 16px;
+	line-height: 16px;
+}
+
+.regbtn {
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 16px;
+	color: #888888;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #888888;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>org.snnu.edu.controller.LoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/session/login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>homePage</servlet-name>
+        <servlet-class>org.snnu.edu.controller.HomePageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>homePage</servlet-name>
+        <url-pattern>/turn/homePage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>loginPage</servlet-name>
+        <servlet-class>org.snnu.edu.controller.LoginPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginPage</servlet-name>
+        <url-pattern>/turn/loginPage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>registerPage</servlet-name>
+        <servlet-class>org.snnu.edu.controller.RegisterPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registerPage</servlet-name>
+        <url-pattern>/turn/registerPage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>goodsListPage</servlet-name>
+        <servlet-class>org.snnu.edu.controller.GoodsListPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>goodsListPage</servlet-name>
+        <url-pattern>/turn/goodsListPage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>goodsShowPage</servlet-name>
+        <servlet-class>org.snnu.edu.controller.GoodsShowPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>goodsShowPage</servlet-name>
+        <url-pattern>/turn/goodsShowPage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>cartPage</servlet-name>
+        <servlet-class>org.snnu.edu.controller.CartPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cartPage</servlet-name>
+        <url-pattern>/turn/cartPage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>orderPage</servlet-name>
+        <servlet-class>org.snnu.edu.controller.OrderPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>orderPage</servlet-name>
+        <url-pattern>/turn/orderPage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>addAddressPage</servlet-name>
+        <servlet-class>org.snnu.edu.controller.AddAddressPageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addAddressPage</servlet-name>
+        <url-pattern>/turn/addAddressPage</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>getGoodsListInfo</servlet-name>
+        <servlet-class>org.snnu.edu.controller.GoodsListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getGoodsListInfo</servlet-name>
+        <url-pattern>/getInfo/goodsList</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class>org.snnu.edu.controller.RegisterController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/session/register</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>getType</servlet-name>
+        <servlet-class>org.snnu.edu.controller.TypeListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getType</servlet-name>
+        <url-pattern>/getInfo/type</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getGoodsShow</servlet-name>
+        <servlet-class>org.snnu.edu.controller.GoodsShowController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getGoodsShow</servlet-name>
+        <url-pattern>/getInfo/goodsShow</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>getCarts</servlet-name>
+    <servlet-class>org.snnu.edu.controller.CartsController</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>getCarts</servlet-name>
+        <url-pattern>/getInfo/cartsList</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addCart</servlet-name>
+        <servlet-class>org.snnu.edu.controller.AddCartController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCart</servlet-name>
+        <url-pattern>/addCart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getStatus</servlet-name>
+        <servlet-class>org.snnu.edu.controller.GetStatusController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getStatus</servlet-name>
+        <url-pattern>/getStatus</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>org.snnu.edu.controller.LogoutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/session/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addOrder</servlet-name>
+        <servlet-class>org.snnu.edu.controller.AddOrderController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addOrder</servlet-name>
+        <url-pattern>/addOrder</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getOrder</servlet-name>
+        <servlet-class>org.snnu.edu.controller.GetOrderController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getOrder</servlet-name>
+        <url-pattern>/getInfo/order</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showAddress</servlet-name>
+        <servlet-class>org.snnu.edu.controller.ShowAddressController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showAddress</servlet-name>
+        <url-pattern>/showAddress</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editAddress</servlet-name>
+        <servlet-class>org.snnu.edu.controller.EditAddressController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editAddress</servlet-name>
+        <url-pattern>/editAddress</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addAddress</servlet-name>
+        <servlet-class>org.snnu.edu.controller.AddAddressController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addAddress</servlet-name>
+        <url-pattern>/addAddress</url-pattern>
+    </servlet-mapping>
+</web-app>
